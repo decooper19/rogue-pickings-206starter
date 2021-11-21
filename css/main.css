@@ -25,8 +25,6 @@ h3 {
 	color: black;
 	text-transform: uppercase;
 	font-weight: 700;
-	display: flex;
-	justify-content: flex-start;
 }
 
 h1 {
@@ -44,8 +42,6 @@ h3 {
 p {
 	font-size: 0.9em;
 	line-height: 21px;
-  display: flex;
-	justify-content: flex-start;
 }
 
 /*The widths are in a percentage!*/
@@ -74,10 +70,6 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 header nav ul li {
@@ -204,6 +196,19 @@ footer span {
 	width: 33%;
 	height: auto;
 	border-top: 1px solid #eee;
+}
+
+.menu {
+		padding-right: 20px;
+}
+
+.section-one h3 {
+		padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 }
 
 .section-two h3,
