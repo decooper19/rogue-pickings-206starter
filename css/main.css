@@ -184,10 +184,10 @@ footer span {
 
 /******TABLET******/
 @media (min-width: 768px) {
-	.bottom-section {
+
+.bottom-section {
 		display: flex;
 		justify-content: space-between;
-	}
 }
 
 .section-one,
@@ -222,6 +222,7 @@ p {
 
 footer {
 	margin-top: 30pc;
+}
 }
 
 /******DESKTOP******/
