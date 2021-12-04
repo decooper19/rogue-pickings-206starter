@@ -230,19 +230,11 @@ footer {
 }
 
 /******DESKTOP******/
-@media (main-width: 1200px) {
+@media (min-width: 1200px) {
 
 .section-two h3,
 .section-three h3 {
-	padding 10px 50px;
-}
-
-header nav ul li {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.9em;
-	padding: 0 10px;
-  display: inline;
+  padding: 10px 50px;
 }
 
 p {
