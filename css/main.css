@@ -1,22 +1,21 @@
-html{
-    font-size: 16px;
+html {
+	font-size: 1em;
 }
 
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-	max-width: 1200px;
-	width: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+.container {
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 h1,
@@ -28,39 +27,35 @@ h3 {
 }
 
 h1 {
-	font-size: 1.9em;
+	font-size: 1.875em;
 }
 
 h2 {
-	font-size: 1.1em;
+	font-size: 1.125em;
 }
-
 h3 {
-	font-size: 0.8em;
+	font-size: 0.75em;
 }
 
 p {
-	font-size: 0.9em;
-	line-height: 21px;
-}
-
-ul {
-  margin: 0;
+	font-size: 0.075em;
 }
 
 /*The widths are in a percentage!*/
 header {
 	margin: 0 auto;
-	display: flex;
+	display:flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
+	align-content: flex-start;
+	text-align: center;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
-	border-bottom: 3px solid #77a466;
+border-bottom: 3px solid #77a466;
+	text-align:center;
 }
 
 header h1 span {
@@ -68,33 +63,38 @@ header h1 span {
 }
 
 header nav {
-	padding: 20px 0;
+	list-style: none;
+	width:40%;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 0.9em;
-	padding: 0 10px;
+	font-size: 0.875em;
+	padding: 10px 0;
+	list-style: none;
 }
 
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	list-style: none;
 }
 
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-  display: flex;
-  justify-content: center;
-  align-items: enter;
-  flex-flow: row wrap;
+	margin: 0 auto;
+	display:flex;
+	align-items: center;
+	flex-flow: row wrap;
+	align-content: flex-start;
 }
 
 .main-image {
@@ -104,17 +104,13 @@ header nav ul li a{
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
 }
-
 .main-title {
 	height: auto;
 }
 
 .main-title h2 {
+	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
 }
@@ -122,30 +118,24 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 1em;
-	line-height: 25px;
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 100%;
-	height: auto;
 	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	flex-flow: column wrap;
 }
 
 .section-one h3 {
 	padding: 10px 0;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .section-two {
-	display: flex;
-	justify-content: flex-start;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: 10px 30px;
 }
 
 .menu {
@@ -161,83 +151,46 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 1em;
-	line-height: 21px;
 }
 
 .address {
 	font-size: 1em;
-	line-height: 24px;
 }
 
 /*The widths are in a percentage!*/
 footer {
+	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
+	width: 100%;
 	text-align: center;
-	display: flex;
+	display:flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: row wrap;
+	align-content: flex-start;
 }
 
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 0.9em;
+	font-size: 0.875em;
 }
 
-/******TABLET******/
-@media (min-width: 768px) {
+/* TABLET */
+@media (min-width:768px ){
 
-.bottom-section {
-		display: flex;
-		justify-content: space-between;
-}
+	}
 
-.section-one,
-.section-two,
-.section-three {
-	width: 33%;
-	height: auto;
-	border-top: 1px solid #eee;
-}
 
-.menu {
-		padding-right: 20px;
-}
+/* MONITORS */
+@media (min-width:1200px) {
 
-.section-one h3 {
-		padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h3,
-section-three h3 {
-	padding: 10px 10px;
 }
 
 p {
-	padding: 0 10px;
+    padding: 0 30px;
 }
 
-footer {
-	margin-top: 30pc;
-}
-}
-
-/******DESKTOP******/
-@media (min-width: 1200px) {
-
-.section-two h3,
-.section-three h3 {
-  padding: 10px 50px;
-}
-
-p {
-	padding: 0 30px
-}
 }
