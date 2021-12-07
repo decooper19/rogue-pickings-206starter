@@ -50,12 +50,14 @@ header {
 	flex-flow: row wrap;
 	align-content: flex-start;
 	text-align: center;
+	width: 100%;
 }
 
 header h1 {
 	margin: 0;
-border-bottom: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
 	text-align:center;
+	width: 100%;
 }
 
 header h1 span {
@@ -79,6 +81,7 @@ header nav ul li {
 	font-size: 0.875em;
 	padding: 10px 0;
 	list-style: none;
+	width: 100%;
 }
 
 header nav ul li a{
@@ -127,7 +130,7 @@ header nav ul li a{
 }
 
 .section-one h3 {
-	padding: 10px 0;
+
 }
 
 .section-two {
@@ -135,7 +138,6 @@ header nav ul li a{
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
 }
 
 .menu {
