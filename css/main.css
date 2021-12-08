@@ -134,10 +134,12 @@ header nav ul li a{
 }
 
 .section-two {
+
 }
 
 .section-two h3,
 .section-three h3 {
+
 }
 
 .menu {
@@ -188,11 +190,5 @@ footer span {
 
 /* MONITORS */
 @media (min-width:1200px) {
-
-}
-
-p {
-    padding: 0 30px;
-}
 
 }
